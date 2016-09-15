@@ -1,6 +1,11 @@
 # AppStory-Scrum
 AppStory-Scrum est un outil facilitant la conception d'un Backlog Scrum à partir de l'histoire racontée par l'utilisateur
 
+# Prerequis installés : 
+- nodejs
+- npm 
+- bower
+
 
 # installation
 - recupération du code source
@@ -21,6 +26,13 @@ cd public
 bower install
 cd ..
 node .
+
+```
+
+ou directement (en croisant les doigts que ça passe, et sans oublier le point à la fin)
+
+```
+git clone https://github.com/scenaristeur/AppStory-Scrum.git && cd AppStory-Scrum && npm install && cd public && bower install && cd .. && node .
 
 ```
 
